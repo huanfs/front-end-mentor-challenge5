@@ -327,13 +327,16 @@ footer #footer-menu{
     #persons{
         flex-direction:column;
         align-items:center;
+        justify-content:space-around;
     }
     #persons article{
         width:100vw;
     }
+    #persons article p{
+        width:85%;
+    }
     /* LINHA 3 FINALIZADA */
     #galery{
-        height:70vh;
         display:grid;
         grid-template-areas: "topl topr" "bottoml bottomr";
         grid-template-columns:50% 50%;
